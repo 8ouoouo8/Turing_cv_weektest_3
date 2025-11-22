@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 设置中文字体（如果需要显示中文标题）
-plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans']
+plt.rcParams['font.sans-serif'] = ['SimHei', 'DejaVu Sans', 'Arial Unicode MS']
 plt.rcParams['axes.unicode_minus'] = False
 
 # 1. 创建 x 轴数据：0 到 10，100 个点

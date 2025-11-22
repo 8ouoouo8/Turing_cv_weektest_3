@@ -45,9 +45,9 @@ print()
 
 # 总分最高的学生
 max_score_idx = df['总分'].idxmax()
-best_student = df.loc[max_score_idx]
+highest_score_student = df.loc[max_score_idx]
 print("总分最高的学生：")
-print(best_student)
+print(highest_score_student)
 print()
 
 # 平均分最低的学生
